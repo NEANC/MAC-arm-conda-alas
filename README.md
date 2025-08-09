@@ -5,9 +5,6 @@
 > 本文默认读者能正常访问 Github 与各官方库；  
 > 如遇下载问题，请自行设置终端代理或国内源后再试。
 
-> [!IMPORTANT]
-> 如遇不会的情况，请结合 [配套视频教程](https://www.bilibili.com/video/BV1JQG2z7EUt "碧蓝航线挂机功耗个位数，真正低耗的神！Mac版本alas安装教程") 进行操作
-
 在 Mac ARM 中使用 Conda 安装与配置 [AzurLaneAutoScript](https://github.com/LmeSzinc/AzurLaneAutoScript) 的指南
 
 ---
@@ -362,7 +359,7 @@ conda env create -f environment.yml
     ```
 
 > [!CAUTION]
-> 更新至 macOS v15.4.1 版本后，虚拟环境出错请尝试在终端运行下列命令  
+> 更新至 macOS v15.4.1 版本后，虚拟环境出错(错误信息参照 [issues#4](https://github.com/Dreamry2C/MAC-arm-conda-alas/issues/4))，请尝试在终端运行下列命令  
 > 若还是出错，请尝试删除 [ALAS 虚拟环境](#附录-删除虚拟环境) 后重新执行 [步骤 5](#5-创建并配置虚拟环境)
 
 ```bash
