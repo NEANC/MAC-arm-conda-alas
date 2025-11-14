@@ -469,6 +469,9 @@ python gui.py
 > 1. 修改 `cd /Users/<yourname>/AzurLaneAutoScript` 为实际路径  
 > 2. 修改脚本文件权限
 
+> [!TIP]
+> 也可使用本仓库的 [run_alas.sh](./run_alas.sh) 文件
+
 ## 8. 使用脚本运行 ALAS
 
 创建并配置 `run_alas.sh` 文件
@@ -486,7 +489,6 @@ touch run_alas.sh
 
 # 最小化当前终端窗口
 osascript -e 'tell application "Terminal" to set miniaturized of front window to true'
-# by.baizi826
 
 # 激活环境变量
 # source ~/.zshrc
@@ -506,7 +508,6 @@ cd /Users/<yourname>/AzurLaneAutoScript
 # 延迟2秒后打开测览器访问 ALAS WEB GUI
 (sleep 2 && open http://127.0.0.1:22267) &
 # 若不需要自动打开浏览器，请注释/删除该命令
-# by.baizi826
 
 # 运行 gui.py
 python gui.py
